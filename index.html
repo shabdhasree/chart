@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Bar Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<form id="chartForm">
+    <div id="inputContainer">
+        <div class="inputGroup">
+            <h1> Bar Chart</h1>
+            <p>Enter your data to create your own bar chart.</p>
+            <label>Label:</label>
+            <input type="text" class="labelInput"><br>
+            <label>Data:</label>
+            <input type="number" class="dataInput"><br>
+        </div>
+    </div>
+    <button type="button" id="addInput">Add More Data</button><br><br>
+    <button type="button" id = "createchart" onclick="createChart()">Create Chart</button>
+</form>
+
+<canvas id="myChart"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

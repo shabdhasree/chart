@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center;*/
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+    /*background-image: url(./img/img.jpg);*/
+    background-repeat: no-repeat; 
+    /*background-size: cover; */
+    background-position: center;
+    
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+
+.labelInput {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3498db;
+    display: inline-block;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    border: 2px solid #8e44ad;
+}
+
+/* Fancy input styling */
+.dataInput{
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#addInput{
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+    justify-content: center;
+}
+
+#createchart{
+    padding: 9px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+    justify-content: center;
+}
+#myChart {
+    max-width: 200px;
+    max-height: 400px;
+    
+}
+
+.inputGroup {
+    margin-bottom: 10px;
+    text-align: center;
+}
